@@ -27,6 +27,12 @@ body {
 
 .headIcons a {
   padding: 0 7px;
+  transition:all 0.1s linear;
+}
+
+.headIcons a:hover{
+  transform:scale(1.2);
+  color: blue;
 }
 
 .headIcons a:last-child {
@@ -192,6 +198,12 @@ body {
   height:100%;
   width:100%;
   object-fit:cover;
+  transition:all 0.2s ease-in-out;
+}
+
+.pic img:hover{
+  transform:scale(1.1);
+
 }
 
 .picdata{
@@ -225,6 +237,12 @@ body {
   height:100%;
   width:100%;
   object-fit:cover;
+  transition:all 0.2s linear;
+}
+
+.box img:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 0 10px #00bb9b;
 }
 
 .circle{
@@ -308,6 +326,11 @@ body {
   height:100%;
   width:100%;
   object-fit:cover;
+  transition:all 0.2s linear;
+}
+
+.fimg img:hover{
+  transform:scale(1.1);
 }
 
 address{
