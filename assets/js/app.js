@@ -18,8 +18,19 @@ const inputToggle = () => {
     }
 }
 
+const mouseHover = () => {
+    input.style.transform = "scale(1)";
+  
+}
+
+const mouseLeave = () => {
+    input.style.transform = "scale(0)";
+   
+}
 
 
 
 
+icon.addEventListener("mouseenter", mouseHover);
+icon.addEventListener("mouseleave", mouseLeave);
 icon.addEventListener("click", inputToggle);
