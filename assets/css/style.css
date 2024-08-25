@@ -65,11 +65,30 @@ body {
 
 .search {
   line-height: 46px;
-  text-align: right;
+  
+}
+
+.search .inputs2{
+  position:relative;
 }
 
 .search a {
   padding: 0 20px;
+  position:absolute;
+  top:2px;
+  right:-8%;
+  transition: all 0.2s linear;
+}
+
+.search input{
+  height:30px;
+  width:100%;
+  padding:5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transform : scale(0);
+  transition:all 0.2s linear;
+  transform-origin: right;
 }
 
 .navbar li a::before {
@@ -409,6 +428,14 @@ address {
   font-size: 14px;
   color: #707e8c;
   padding: 0 8px;
+  transition: all 0.2s linear;
+}
+
+.lastnav li a:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 5px 2px #fff;
+  color:#fff;
+  border-radius:10px;
 }
 
 .arrow {
@@ -417,4 +444,10 @@ address {
   top: 25px;
   color: #3c5065;
   cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.arrow:hover{
+  transform:scale(1.2);
+  color:yellow;
 }
