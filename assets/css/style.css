@@ -401,6 +401,10 @@ address {
   color: #707e8c;
 }
 
+.lastnav{
+  text-align:right;
+}
+
 .lastnav li a {
   font-size: 14px;
   color: #707e8c;
